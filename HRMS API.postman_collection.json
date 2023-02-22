@@ -1,0 +1,5976 @@
+{
+	"info": {
+		"_postman_id": "55170ee3-22c7-4003-aa99-716de35adf31",
+		"name": "HRMS API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\"\r\n:\"SuperAdmin\",\r\n\"email\"\r\n:\"admin@123.com\",\r\n\"password\"\r\n:\"admin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register Copy 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"email\"\r\n:\"E11@123.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Register Copy 2",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"email\"\r\n:\"E11@123.com.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"register"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "48"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"30-qMhX1CC5RKzOM54oqEe1ucCHdwY\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 07 Feb 2022 10:53:12 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"log\": \"Successfully registered\"\n}"
+				},
+				{
+					"name": "Register Copy 2",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"email\"\r\n:\"E20@123.com\"\r\n,\r\n\"hr\":\"6200f17544577d7d2ca6d272\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"register"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "48"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"30-qMhX1CC5RKzOM54oqEe1ucCHdwY\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Feb 2022 10:48:09 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"log\": \"Successfully registered\"\n}"
+				},
+				{
+					"name": "Register Copy 2",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"email\"\r\n:\"anand.raj@nonceblox.com\"\r\n,\r\n\"hr\":\"6200f17544577d7d2ca6d272\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://hrms-backend1.herokuapp.com/api/register",
+							"protocol": "https",
+							"host": [
+								"hrms-backend1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"api",
+								"register"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-Dns-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-Ct",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-Xss-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "76"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"4c-ipVWDAIwUPAPLBSaQcgVfOEpOd4\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 17 Feb 2022 11:06:25 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"log\": \"Successfully registered\",\n    \"randompassword\": \"2d0fw4th\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"email\"\r\n:\"E11@123.com\",\r\n\"password\"\r\n:\"Welcome@123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:3000/api/login",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"email\"\r\n:\"E4@123.com\",\r\n\"password\"\r\n:\"E4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "user=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWZiOWM0NDgzMWNkOTc2MzYzMjhmNTUiLCJpYXQiOjE2NDM4Nzk1MjAsImV4cCI6MTY0Mzk2NTkyMH0.UzquJFHVAg37ElZ8Y-Sp-O6nfwNXrUcLDFDmby9wHEs; Max-Age=86400; Path=/; Expires=Fri, 04 Feb 2022 09:12:00 GMT; HttpOnly"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "502"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1f6-wDhaQVwVHZ6lcgMzZJxLod0PPio\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Feb 2022 09:12:00 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"log\": \"user successfully logged in\",\n    \"employee\": {\n        \"_id\": \"61fb9c44831cd97636328f55\",\n        \"name\": \"Employee4\",\n        \"email\": \"E4@123.com\",\n        \"password\": \"\",\n        \"role\": \"Employee\",\n        \"leave_data\": [\n            {\n                \"leave_type\": \"sick\",\n                \"leave_left\": 4,\n                \"_id\": \"61fb9c44831cd97636328f56\"\n            },\n            {\n                \"leave_type\": \"casual\",\n                \"leave_left\": 4,\n                \"_id\": \"61fb9c44831cd97636328f57\"\n            },\n            {\n                \"leave_type\": \"exigency\",\n                \"leave_left\": 4,\n                \"_id\": \"61fb9c44831cd97636328f58\"\n            }\n        ],\n        \"documents\": [],\n        \"createdAt\": \"2022-02-03T09:11:32.407Z\",\n        \"updatedAt\": \"2022-02-03T09:11:32.407Z\",\n        \"__v\": 0\n    }\n}"
+				},
+				{
+					"name": "Login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"email\"\r\n:\"anand.raj@nonceblox.com\",\r\n\"password\"\r\n:\"2d0fw4th\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://hrms-backend1.herokuapp.com/api/login",
+							"protocol": "https",
+							"host": [
+								"hrms-backend1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-Dns-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-Ct",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-Xss-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "user=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjBlMmMzMTBkNGRjNjVjZWEzNmU1MTEiLCJpYXQiOjE2NDUwOTYxMzUsImV4cCI6MTY0NTE4MjUzNX0.5uY40ARDcDSsQoBOXJJI8BaW9k16qFyDqoiHiM-6Dbc; Max-Age=86400; Path=/; Expires=Fri, 18 Feb 2022 11:08:55 GMT; HttpOnly; Secure; SameSite=None"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "544"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"220-ab9dQfzo7U3ahL5M8MMrf6h3Cb0\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 17 Feb 2022 11:08:55 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"log\": \"user successfully logged in\",\n    \"employee\": {\n        \"_id\": \"620e2c310d4dc65cea36e511\",\n        \"email\": \"anand.raj@nonceblox.com\",\n        \"password\": \"\",\n        \"role\": \"Employee\",\n        \"verified\": \"false\",\n        \"leave_data\": [\n            {\n                \"leave_type\": \"sick\",\n                \"leave_left\": 10,\n                \"_id\": \"620e2c310d4dc65cea36e512\"\n            },\n            {\n                \"leave_type\": \"casual\",\n                \"leave_left\": 10,\n                \"_id\": \"620e2c310d4dc65cea36e513\"\n            },\n            {\n                \"leave_type\": \"exigency\",\n                \"leave_left\": 10,\n                \"_id\": \"620e2c310d4dc65cea36e514\"\n            }\n        ],\n        \"assigned_HR\": \"6200f17544577d7d2ca6d272\",\n        \"createdAt\": \"2022-02-17T11:06:25.047Z\",\n        \"updatedAt\": \"2022-02-17T11:06:25.047Z\",\n        \"__v\": 0\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Login Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"email\"\r\n:\"E11@123.com\",\r\n\"password\"\r\n:\"Welcome@123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:3000/api/login",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"email\"\r\n:\"E4@123.com\",\r\n\"password\"\r\n:\"E4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "user=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWZiOWM0NDgzMWNkOTc2MzYzMjhmNTUiLCJpYXQiOjE2NDM4Nzk1MjAsImV4cCI6MTY0Mzk2NTkyMH0.UzquJFHVAg37ElZ8Y-Sp-O6nfwNXrUcLDFDmby9wHEs; Max-Age=86400; Path=/; Expires=Fri, 04 Feb 2022 09:12:00 GMT; HttpOnly"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "502"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1f6-wDhaQVwVHZ6lcgMzZJxLod0PPio\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Feb 2022 09:12:00 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"log\": \"user successfully logged in\",\n    \"employee\": {\n        \"_id\": \"61fb9c44831cd97636328f55\",\n        \"name\": \"Employee4\",\n        \"email\": \"E4@123.com\",\n        \"password\": \"\",\n        \"role\": \"Employee\",\n        \"leave_data\": [\n            {\n                \"leave_type\": \"sick\",\n                \"leave_left\": 4,\n                \"_id\": \"61fb9c44831cd97636328f56\"\n            },\n            {\n                \"leave_type\": \"casual\",\n                \"leave_left\": 4,\n                \"_id\": \"61fb9c44831cd97636328f57\"\n            },\n            {\n                \"leave_type\": \"exigency\",\n                \"leave_left\": 4,\n                \"_id\": \"61fb9c44831cd97636328f58\"\n            }\n        ],\n        \"documents\": [],\n        \"createdAt\": \"2022-02-03T09:11:32.407Z\",\n        \"updatedAt\": \"2022-02-03T09:11:32.407Z\",\n        \"__v\": 0\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Logout",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://hrms-backend1.herokuapp.com/api/logout",
+					"protocol": "https",
+					"host": [
+						"hrms-backend1",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/getEmployees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"getEmployees"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Employees",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/getEmployees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"getEmployees"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1937"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"791-zPyzWLm2AaYAW8ex/A1wvX3piII\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Feb 2022 09:12:26 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"log\": \"Employees info\",\n    \"employee\": [\n        {\n            \"role\": \"Employee\",\n            \"_id\": \"61f0171c03fea678ed613dfd\",\n            \"name\": \"SuperAdmin\",\n            \"email\": \"admin@123.com\",\n            \"password\": \"$2b$10$PO1zs02Pmdxf11mMYIKWXeG6Ek8UED.yMyGxkLd8E5chNDsz9RU32\",\n            \"isAdmin\": true,\n            \"createdAt\": \"2022-01-25T15:28:28.195Z\",\n            \"updatedAt\": \"2022-01-25T15:30:34.440Z\",\n            \"__v\": 0,\n            \"documents\": [],\n            \"leave_data\": []\n        },\n        {\n            \"role\": \"Employee\",\n            \"_id\": \"61f0177703fea678ed613e03\",\n            \"name\": \"Employee1\",\n            \"email\": \"E1@123.com\",\n            \"password\": \"$2b$10$YVmcsdr07E8hBlqVPOO0YOv30AXynjUzmRgwzQq0lJDJvTdZeOvTu\",\n            \"isAdmin\": false,\n            \"createdAt\": \"2022-01-25T15:29:59.985Z\",\n            \"updatedAt\": \"2022-01-25T15:29:59.985Z\",\n            \"__v\": 0,\n            \"documents\": [],\n            \"leave_data\": []\n        },\n        {\n            \"_id\": \"61f24bbbd439fc231cb2fbee\",\n            \"name\": \"Employee2\",\n            \"email\": \"E2@123.com\",\n            \"password\": \"$2b$10$qr9HDnu12QjoTfUyZ.eW/OVQxHrwRQZZ0HVYxhQrPioUSHEdYpnUe\",\n            \"role\": \"Employee\",\n            \"createdAt\": \"2022-01-27T07:37:31.616Z\",\n            \"updatedAt\": \"2022-01-27T11:51:04.853Z\",\n            \"__v\": 0,\n            \"documents\": [],\n            \"leave_data\": []\n        },\n        {\n            \"_id\": \"61fa449d623f63e869b8b889\",\n            \"name\": \"Employee3\",\n            \"email\": \"E3@123.com\",\n            \"password\": \"$2b$10$4sUmSR6dB7.rnZritouyOOhjsbxau579Q5fV1S8G27a4a6iEB2QS2\",\n            \"role\": \"Employee\",\n            \"leave_data\": [\n                {\n                    \"leave_type\": \"sick\",\n                    \"leave_left\": 0,\n                    \"_id\": \"61fa449d623f63e869b8b88a\"\n                },\n                {\n                    \"leave_type\": \"casual\",\n                    \"leave_left\": 2,\n                    \"_id\": \"61fa449d623f63e869b8b88b\"\n                },\n                {\n                    \"leave_type\": \"exigency\",\n                    \"leave_left\": 4,\n                    \"_id\": \"61fa449d623f63e869b8b88c\"\n                }\n            ],\n            \"documents\": [],\n            \"createdAt\": \"2022-02-02T08:45:17.724Z\",\n            \"updatedAt\": \"2022-02-02T14:21:50.630Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"61fb9c44831cd97636328f55\",\n            \"name\": \"Employee4\",\n            \"email\": \"E4@123.com\",\n            \"password\": \"$2b$10$OFDZ4OBWZ1fnUNo/0L04TeSCnsW8v.RMERsHfY1HiCBrAcbQNpX.C\",\n            \"role\": \"Employee\",\n            \"leave_data\": [\n                {\n                    \"leave_type\": \"sick\",\n                    \"leave_left\": 4,\n                    \"_id\": \"61fb9c44831cd97636328f56\"\n                },\n                {\n                    \"leave_type\": \"casual\",\n                    \"leave_left\": 4,\n                    \"_id\": \"61fb9c44831cd97636328f57\"\n                },\n                {\n                    \"leave_type\": \"exigency\",\n                    \"leave_left\": 4,\n                    \"_id\": \"61fb9c44831cd97636328f58\"\n                }\n            ],\n            \"documents\": [],\n            \"createdAt\": \"2022-02-03T09:11:32.407Z\",\n            \"updatedAt\": \"2022-02-03T09:11:32.407Z\",\n            \"__v\": 0\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Employee/id",
+			"request": {
+				"auth": {
+					"type": "bearer"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://hrms-backend1.herokuapp.com/api/employee/620a1e937846a43c1ae14276",
+					"protocol": "https",
+					"host": [
+						"hrms-backend1",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"employee",
+						"620a1e937846a43c1ae14276"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Employee/id",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/employee/61fb9c44831cd97636328f55",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"employee",
+								"61fb9c44831cd97636328f55"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "540"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"21c-CB0X839T8emEuadlDT84I84sWBE\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Feb 2022 09:15:56 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"log\": \"user info\",\n    \"user\": {\n        \"_id\": \"61fb9c44831cd97636328f55\",\n        \"name\": \"Employee4\",\n        \"email\": \"E4@123.com\",\n        \"password\": \"$2b$10$OFDZ4OBWZ1fnUNo/0L04TeSCnsW8v.RMERsHfY1HiCBrAcbQNpX.C\",\n        \"role\": \"Employee\",\n        \"leave_data\": [\n            {\n                \"leave_type\": \"sick\",\n                \"leave_left\": 4,\n                \"_id\": \"61fb9c44831cd97636328f56\"\n            },\n            {\n                \"leave_type\": \"casual\",\n                \"leave_left\": 4,\n                \"_id\": \"61fb9c44831cd97636328f57\"\n            },\n            {\n                \"leave_type\": \"exigency\",\n                \"leave_left\": 4,\n                \"_id\": \"61fb9c44831cd97636328f58\"\n            }\n        ],\n        \"documents\": [],\n        \"createdAt\": \"2022-02-03T09:11:32.407Z\",\n        \"updatedAt\": \"2022-02-03T09:11:32.407Z\",\n        \"__v\": 0\n    }\n}"
+				},
+				{
+					"name": "Employee/id",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "https://hrms-backend1.herokuapp.com/api/employee/620a1e937846a43c1ae14276",
+							"protocol": "https",
+							"host": [
+								"hrms-backend1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"api",
+								"employee",
+								"620a1e937846a43c1ae14276"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-Dns-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-Ct",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-Xss-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "795"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"31b-HfEQo2aj9pB6zca/N/dpHCd8Cq8\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 17 Feb 2022 11:10:42 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"log\": \"user info\",\n    \"user\": {\n        \"_id\": \"620a1e937846a43c1ae14276\",\n        \"email\": \"anandraj01021999@gmail.com\",\n        \"role\": \"Employee\",\n        \"verified\": \"false\",\n        \"leave_data\": [\n            {\n                \"leave_type\": \"sick\",\n                \"leave_left\": 10,\n                \"_id\": \"620a1e937846a43c1ae14277\"\n            },\n            {\n                \"leave_type\": \"casual\",\n                \"leave_left\": 10,\n                \"_id\": \"620a1e937846a43c1ae14278\"\n            },\n            {\n                \"leave_type\": \"exigency\",\n                \"leave_left\": 10,\n                \"_id\": \"620a1e937846a43c1ae14279\"\n            }\n        ],\n        \"assigned_HR\": \"6200f17544577d7d2ca6d272\",\n        \"salary_slips\": [\n            \"1644866414731February.pdf\",\n            \"1644866414731February.pdf\",\n            \"1644866544684February.pdf\",\n            \"1644866544684February.pdf\",\n            \"1644866728883February.pdf\",\n            \"1644866728883February.pdf\",\n            \"1644866865278February.pdf\",\n            \"1644866865278February.pdf\",\n            \"1644866978781February.pdf\"\n        ],\n        \"documents\": [],\n        \"createdAt\": \"2022-02-14T09:19:15.052Z\",\n        \"updatedAt\": \"2022-02-14T19:29:38.792Z\",\n        \"__v\": 0\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "CurrentEmployee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/currentEmployee",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"currentEmployee"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "CurrentEmployee",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/currentEmployee",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"currentEmployee"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "483"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1e3-E2qpVu14IzYQ5KKpkVquEhc2BFo\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Feb 2022 09:14:34 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"log\": \"current user\",\n    \"User\": {\n        \"_id\": \"61fb9c44831cd97636328f55\",\n        \"name\": \"Employee4\",\n        \"email\": \"E4@123.com\",\n        \"password\": \"\",\n        \"role\": \"Employee\",\n        \"leave_data\": [\n            {\n                \"leave_type\": \"sick\",\n                \"leave_left\": 4,\n                \"_id\": \"61fb9c44831cd97636328f56\"\n            },\n            {\n                \"leave_type\": \"casual\",\n                \"leave_left\": 4,\n                \"_id\": \"61fb9c44831cd97636328f57\"\n            },\n            {\n                \"leave_type\": \"exigency\",\n                \"leave_left\": 4,\n                \"_id\": \"61fb9c44831cd97636328f58\"\n            }\n        ],\n        \"documents\": [],\n        \"createdAt\": \"2022-02-03T09:11:32.407Z\",\n        \"updatedAt\": \"2022-02-03T09:11:32.407Z\",\n        \"__v\": 0\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "UpdateRole",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"sujay.banage@nonceblox.com\",\r\n    \"role\":\"HR\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hrms-backend1.herokuapp.com/api/updateRole",
+					"protocol": "https",
+					"host": [
+						"hrms-backend1",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"updateRole"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "UpdateRole",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"E4@123.com\",\r\n    \"role\":\"HR\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/updateRole",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"updateRole"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "46"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2e-hwc8lEKF96dcRB3TtsL30KKvvec\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Feb 2022 10:17:49 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"log\": \"Employee info updated\"\n}"
+				},
+				{
+					"name": "UpdateRole",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"sujay.banage@nonceblox.com\",\r\n    \"role\":\"HR\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://hrms-backend1.herokuapp.com/api/updateRole",
+							"protocol": "https",
+							"host": [
+								"hrms-backend1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"api",
+								"updateRole"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-Dns-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-Ct",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-Xss-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "46"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"2e-hwc8lEKF96dcRB3TtsL30KKvvec\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 17 Feb 2022 11:15:03 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"log\": \"Employee info updated\"\n}"
+				}
+			]
+		},
+		{
+			"name": "approve/reject_individually",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"61f439e65a858d4018ad071a\",\r\n    \"userId\":\"61f0171c03fea678ed613dfd\",\r\n    \"status\":\"approved\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/resolveIndividual",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"resolveIndividual"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "approve/reject_individually",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"61fa836d04acba979c94f2d4\",\r\n    \"userId\":\"61f0177703fea678ed613e03\",\r\n    \"status\":\"approved\",\r\n    \"msg\":\"Take Care_!\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/resolveIndividual",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"resolveIndividual"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "39"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"27-H7Sr+y52NVMkJRf0VClfj99CpJo\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Feb 2022 09:31:33 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"log\": \"not that much leave remaining\"\n}"
+				},
+				{
+					"name": "approve/reject_individually",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"61fa836d04acba979c94f2d4\",\r\n    \"userId\":\"61f0177703fea678ed613e03\",\r\n    \"status\":\"approved\",\r\n    \"msg\":\"Take Care_!\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/resolveIndividual",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"resolveIndividual"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "24"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"18-SZ5QMKBE+y1LVKubLFxMxrXFMkQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Feb 2022 09:35:05 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"log\": \"status updated\"\n}"
+				},
+				{
+					"name": "approve/reject_individually",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"62037a35ae8d28c46f2edbae\",\r\n    \"userId\":\"6200d3f339629885196480b6\",\r\n    \"status\":\"approved\",\r\n    \"msg\":\"Take Care_!\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/resolveIndividual",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"resolveIndividual"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "43"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2b-DYc+0YOXicGMKZoOKAcpDQSCvw0\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Feb 2022 09:05:29 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "request has been sent to admin for approval"
+				}
+			]
+		},
+		{
+			"name": "delete reuest",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"_id\":\"61f27bd899bde3aca561ec7c\",\r\n    \"user\":\"61f24bbbd439fc231cb2fbee\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/delete",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"delete"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "delete",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"_id\":\"61fa8247b450a25b5b2be25b\",\r\n    \"user\":\"61fa449d623f63e869b8b889\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/delete",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"delete"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "24"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"18-+bv0jPxKXkEUFoT6TrM1G5ruXsM\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Feb 2022 09:37:07 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "request has been deleted"
+				}
+			]
+		},
+		{
+			"name": "leave",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"data\":[\"03/03/2022\",\"03/04/2022\"],\r\n     \"category\":\"optional\",\r\n     \"message\":\"Approve my req.\",\r\n    \"user\":{\r\n        \"_id\":\"6215d604e750aeab10f9bd45\"\r\n        },\r\n     \"receivers\":[{\r\n         \"receiver_id\":\"61f0171c03fea678ed613dfd\"\r\n         \r\n         \r\n     },\r\n     {\r\n          \"receiver_id\":\"61fb9c44831cd97636328f55\"\r\n         \r\n     }]  \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/leave",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"leave"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "leave",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"data\":[\"02/02/2022\",\"09/02/2022\"],\r\n     \"category\":\"casual\",\r\n    \"user\":{\r\n        \"_id\":\"61fa449d623f63e869b8b889\"\r\n        },\r\n     \"receivers\":[{\r\n         \"receiver_id\":\"61f0171c03fea678ed613dfd\"\r\n         \r\n         \r\n     },\r\n     {\r\n          \"receiver_id\":\"61f0177703fea678ed613e03\"\r\n         \r\n     }]  \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/leave",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"leave"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "50"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"32-sT5ou+KvnEVJlYlzTfGDTLioRsw\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Feb 2022 09:37:51 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"msg\": \"does not have that much remaining leaves\"\n}"
+				},
+				{
+					"name": "leave",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"data\":[\"06/02/2022\",\"08/02/2022\"],\r\n     \"category\":\"casual\",\r\n    \"user\":{\r\n        \"_id\":\"61fa449d623f63e869b8b889\"\r\n        },\r\n     \"receivers\":[{\r\n         \"receiver_id\":\"61f0171c03fea678ed613dfd\"\r\n         \r\n         \r\n     },\r\n     {\r\n          \"receiver_id\":\"61f0177703fea678ed613e03\"\r\n         \r\n     }]  \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/leave",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"leave"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "568"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"238-17v68vcOKBO+NIvUaAeqmy0oGN8\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Feb 2022 09:38:21 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"employee_id\": \"61fa449d623f63e869b8b889\",\n    \"type\": \"casual\",\n    \"date\": [\n        \"2022-02-05T18:30:00.000Z\",\n        \"2022-02-07T18:30:00.000Z\"\n    ],\n    \"message\": \"Please approve my leave req\",\n    \"leaveCount\": 2,\n    \"status\": \"pending\",\n    \"receiver\": [\n        {\n            \"receiver_id\": \"61f0171c03fea678ed613dfd\",\n            \"status\": \"pending\",\n            \"reject_msg\": \"\",\n            \"_id\": \"61fba28cdfbdb5ab616eb727\"\n        },\n        {\n            \"receiver_id\": \"61f0177703fea678ed613e03\",\n            \"status\": \"pending\",\n            \"reject_msg\": \"\",\n            \"_id\": \"61fba28cdfbdb5ab616eb728\"\n        }\n    ],\n    \"resolved_by\": null,\n    \"_id\": \"61fba28cdfbdb5ab616eb726\",\n    \"createdAt\": \"2022-02-03T09:38:21.012Z\",\n    \"updatedAt\": \"2022-02-03T09:38:21.012Z\",\n    \"__v\": 0\n}"
+				},
+				{
+					"name": "leave",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"data\":[\"09/02/2022\",\"10/02/2022\"],\r\n     \"category\":\"exigency\",\r\n    \"user\":{\r\n        \"_id\":\"62024fddbdea109840284ca8\"\r\n        },\r\n     \"receivers\":[{\r\n         \"receiver_id\":\"61f0171c03fea678ed613dfd\"\r\n         \r\n         \r\n     },\r\n     {\r\n          \"receiver_id\":\"61fb9c44831cd97636328f55\"\r\n         \r\n     }]  \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/leave",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"leave"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "743"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2e7-3FZxRWhDpfikKmY7bfmqj7wAA78\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Feb 2022 11:54:43 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"employee_id\": \"62024fddbdea109840284ca8\",\n    \"type\": \"exigency\",\n    \"date\": [\n        \"2022-02-08T18:30:00.000Z\",\n        \"2022-02-09T18:30:00.000Z\"\n    ],\n    \"message\": \"Please approve my leave req\",\n    \"leaveCount\": 2,\n    \"status\": \"pending\",\n    \"receiver\": [\n        {\n            \"receiver_id\": \"6200f17544577d7d2ca6d272\",\n            \"status\": \"pending\",\n            \"reject_msg\": \"\",\n            \"_id\": \"62025a035ee3a93d5abfcd9e\"\n        },\n        {\n            \"receiver_id\": \"6200d3f339629885196480b6\",\n            \"status\": \"pending\",\n            \"reject_msg\": \"\",\n            \"_id\": \"62025a035ee3a93d5abfcd9f\"\n        }\n    ],\n    \"sendNotification\": [\n        {\n            \"receiver_id\": \"61f0171c03fea678ed613dfd\",\n            \"_id\": \"62025a035ee3a93d5abfcda0\"\n        },\n        {\n            \"receiver_id\": \"61fb9c44831cd97636328f55\",\n            \"_id\": \"62025a035ee3a93d5abfcda1\"\n        }\n    ],\n    \"resolved_by\": null,\n    \"_id\": \"62025a035ee3a93d5abfcd9d\",\n    \"createdAt\": \"2022-02-08T11:54:43.167Z\",\n    \"updatedAt\": \"2022-02-08T11:54:43.167Z\",\n    \"__v\": 0\n}"
+				},
+				{
+					"name": "leave",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"data\":[\"02/10/2022\",\"02/15/2022\"],\r\n     \"category\":\"exigency\",\r\n     \"message\":\"Aprrove my req.\",\r\n    \"user\":{\r\n        \"_id\":\"62024fddbdea109840284ca8\"\r\n        },\r\n     \"receivers\":[{\r\n         \"receiver_id\":\"61f0171c03fea678ed613dfd\"\r\n         \r\n         \r\n     },\r\n     {\r\n          \"receiver_id\":\"61fb9c44831cd97636328f55\"\r\n         \r\n     }]  \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/leave",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"leave"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "781"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"30d-+AIrN5Jb8GeKuulT8hyyBNFgv/0\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 10 Feb 2022 12:06:07 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"employee_id\": \"62024fddbdea109840284ca8\",\n    \"type\": \"exigency\",\n    \"date\": [\n        \"2022-02-09T18:30:00.000Z\",\n        \"2022-02-10T18:30:00.000Z\",\n        \"2022-02-13T18:30:00.000Z\",\n        \"2022-02-14T18:30:00.000Z\"\n    ],\n    \"message\": \"Please approve my leave req\",\n    \"leaveCount\": 4,\n    \"status\": \"pending\",\n    \"Manager\": {\n        \"id\": \"6200d3f339629885196480b6\",\n        \"status\": \"pending\",\n        \"reject_msg\": \"\",\n        \"_id\": \"6204ffaf74b9bf2c9454e13e\"\n    },\n    \"HR\": {\n        \"id\": \"6200d3f339629885196480b7\",\n        \"status\": \"pending\",\n        \"reject_msg\": \"\",\n        \"_id\": \"6204ffaf74b9bf2c9454e13f\"\n    },\n    \"sendNotification\": [\n        {\n            \"receiver_id\": \"61f0171c03fea678ed613dfd\",\n            \"_id\": \"6204ffaf74b9bf2c9454e140\"\n        },\n        {\n            \"receiver_id\": \"61fb9c44831cd97636328f55\",\n            \"_id\": \"6204ffaf74b9bf2c9454e141\"\n        }\n    ],\n    \"resolved_by\": null,\n    \"_id\": \"6204ffaf74b9bf2c9454e13d\",\n    \"createdAt\": \"2022-02-10T12:06:07.781Z\",\n    \"updatedAt\": \"2022-02-10T12:06:07.781Z\",\n    \"__v\": 0\n}"
+				},
+				{
+					"name": "leave",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"data\":[\"03/01/2022\",\"03/01/2022\"],\r\n     \"category\":\"optional\",\r\n     \"message\":\"Approve my req.\",\r\n    \"user\":{\r\n        \"_id\":\"6215d604e750aeab10f9bd45\"\r\n        },\r\n     \"receivers\":[{\r\n         \"receiver_id\":\"61f0171c03fea678ed613dfd\"\r\n         \r\n         \r\n     },\r\n     {\r\n          \"receiver_id\":\"61fb9c44831cd97636328f55\"\r\n         \r\n     }]  \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/leave",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"leave"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "656"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"290-YC3Qm49CcXtwXRiyIqEjCYTND1M\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 23 Feb 2022 09:30:36 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"employee_id\": \"6215d604e750aeab10f9bd45\",\n    \"type\": \"optional\",\n    \"date\": [\n        \"2022-02-28T18:30:00.000Z\"\n    ],\n    \"message\": \"Approve my req.\",\n    \"leaveCount\": 1,\n    \"status\": \"pending\",\n    \"Manager\": {\n        \"status\": \"pending\",\n        \"reject_msg\": \"\",\n        \"_id\": \"6215febc96d5db2e6620c7a2\"\n    },\n    \"HR\": {\n        \"id\": \"61fb9c44831cd97636328f55\",\n        \"status\": \"pending\",\n        \"reject_msg\": \"\",\n        \"_id\": \"6215febc96d5db2e6620c7a3\"\n    },\n    \"sendNotification\": [\n        {\n            \"receiver_id\": \"61f0171c03fea678ed613dfd\",\n            \"_id\": \"6215febc96d5db2e6620c7a4\"\n        },\n        {\n            \"receiver_id\": \"61fb9c44831cd97636328f55\",\n            \"_id\": \"6215febc96d5db2e6620c7a5\"\n        }\n    ],\n    \"resolved_by\": null,\n    \"_id\": \"6215febc96d5db2e6620c7a1\",\n    \"createdAt\": \"2022-02-23T09:30:36.148Z\",\n    \"updatedAt\": \"2022-02-23T09:30:36.148Z\",\n    \"__v\": 0\n}"
+				},
+				{
+					"name": "leave",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"data\":[\"03/03/2022\",\"03/04/2022\"],\r\n     \"category\":\"optional\",\r\n     \"message\":\"Approve my req.\",\r\n    \"user\":{\r\n        \"_id\":\"6215d604e750aeab10f9bd45\"\r\n        },\r\n     \"receivers\":[{\r\n         \"receiver_id\":\"61f0171c03fea678ed613dfd\"\r\n         \r\n         \r\n     },\r\n     {\r\n          \"receiver_id\":\"61fb9c44831cd97636328f55\"\r\n         \r\n     }]  \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/leave",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"leave"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "60"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"3c-cbcbMQ2k13pLI0JwwPnTrCyYfaE\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 23 Feb 2022 09:31:05 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"msg\": \"Some dates might not  fall under optional category\"\n}"
+				}
+			]
+		},
+		{
+			"name": "get_All_leave_req",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/getRequests/6200d3f339629885196480b7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"getRequests",
+						"6200d3f339629885196480b7"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "get_All_leave_req",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/getRequests/61f0171c03fea678ed613dfd",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"getRequests",
+								"61f0171c03fea678ed613dfd"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "7456"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1d20-09SMxPj8zmJkgJmNWA4Me6+kSkY\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Feb 2022 09:38:39 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": 200,\n    \"requests\": [\n        {\n            \"_id\": \"61f7b8f983009768eef7473b\",\n            \"employee_id\": \"61f24bbbd439fc231cb2fbee\",\n            \"type\": \"leave\",\n            \"date\": [\n                \"2022-01-30T18:30:00.000Z\",\n                \"2022-01-31T18:30:00.000Z\"\n            ],\n            \"message\": \"Please approve my leave req\",\n            \"status\": \"pending\",\n            \"receiver\": [\n                {\n                    \"reject_msg\": \"\",\n                    \"receiver_id\": \"61f0171c03fea678ed613dfd\",\n                    \"status\": \"pending\",\n                    \"_id\": \"61f7b8f983009768eef7473c\"\n                },\n                {\n                    \"reject_msg\": \"\",\n                    \"receiver_id\": \"61f0177703fea678ed613e03\",\n                    \"status\": \"pending\",\n                    \"_id\": \"61f7b8f983009768eef7473d\"\n                }\n            ],\n            \"resolved_by\": null,\n            \"createdAt\": \"2022-01-31T10:24:57.528Z\",\n            \"updatedAt\": \"2022-01-31T10:24:57.528Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"61f7bb85ae9f606636d20a5a\",\n            \"employee_id\": \"61f24bbbd439fc231cb2fbee\",\n            \"type\": \"leave\",\n            \"date\": [\n                \"2022-01-30T18:30:00.000Z\",\n                \"2022-01-31T18:30:00.000Z\",\n                \"2022-02-01T18:30:00.000Z\"\n            ],\n            \"message\": \"Please approve my leave req\",\n            \"status\": \"pending\",\n            \"receiver\": [\n                {\n                    \"reject_msg\": \"\",\n                    \"receiver_id\": \"61f0171c03fea678ed613dfd\",\n                    \"status\": \"pending\",\n                    \"_id\": \"61f7bb85ae9f606636d20a5b\"\n                },\n                {\n                    \"reject_msg\": \"\",\n                    \"receiver_id\": \"61f0177703fea678ed613e03\",\n                    \"status\": \"pending\",\n                    \"_id\": \"61f7bb85ae9f606636d20a5c\"\n                }\n            ],\n            \"resolved_by\": null,\n            \"createdAt\": \"2022-01-31T10:35:49.268Z\",\n            \"updatedAt\": \"2022-01-31T10:35:49.268Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"61f92d18af24478abdf6e096\",\n            \"employee_id\": \"61f24bbbd439fc231cb2fbee\",\n            \"type\": \"casual\",\n            \"date\": [\n                \"2022-01-30T18:30:00.000Z\",\n                \"2022-02-02T18:30:00.000Z\"\n            ],\n            \"message\": \"Please approve my leave req\",\n            \"leaveCount\": 4,\n            \"status\": \"pending\",\n            \"receiver\": [\n                {\n                    \"receiver_id\": \"61f0171c03fea678ed613dfd\",\n                    \"status\": \"pending\",\n                    \"reject_msg\": \"\",\n                    \"_id\": \"61f92d18af24478abdf6e097\"\n                },\n                {\n                    \"receiver_id\": \"61f0177703fea678ed613e03\",\n                    \"status\": \"pending\",\n                    \"reject_msg\": \"\",\n                    \"_id\": \"61f92d18af24478abdf6e098\"\n                }\n            ],\n            \"resolved_by\": null,\n            \"createdAt\": \"2022-02-01T12:52:40.161Z\",\n            \"updatedAt\": \"2022-02-01T12:52:40.161Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"61f92d55af24478abdf6e09a\",\n            \"employee_id\": \"61f24bbbd439fc231cb2fbee\",\n            \"type\": \"casual\",\n            \"date\": [\n                \"2022-01-30T18:30:00.000Z\",\n                \"2022-02-07T18:30:00.000Z\"\n            ],\n            \"message\": \"Please approve my leave req\",\n            \"leaveCount\": 7,\n            \"status\": \"pending\",\n            \"receiver\": [\n                {\n                    \"receiver_id\": \"61f0171c03fea678ed613dfd\",\n                    \"status\": \"pending\",\n                    \"reject_msg\": \"\",\n                    \"_id\": \"61f92d55af24478abdf6e09b\"\n                },\n                {\n                    \"receiver_id\": \"61f0177703fea678ed613e03\",\n                    \"status\": \"pending\",\n                    \"reject_msg\": \"\",\n                    \"_id\": \"61f92d55af24478abdf6e09c\"\n                }\n            ],\n            \"resolved_by\": null,\n            \"createdAt\": \"2022-02-01T12:53:41.805Z\",\n            \"updatedAt\": \"2022-02-01T12:53:41.805Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"61f92dd9af24478abdf6e09e\",\n            \"employee_id\": \"61f24bbbd439fc231cb2fbee\",\n            \"type\": \"casual\",\n            \"date\": [\n                \"2022-01-31T18:30:00.000Z\",\n                \"2022-02-04T18:30:00.000Z\"\n            ],\n            \"message\": \"Please approve my leave req\",\n            \"leaveCount\": 4,\n            \"status\": \"pending\",\n            \"receiver\": [\n                {\n                    \"receiver_id\": \"61f0171c03fea678ed613dfd\",\n                    \"status\": \"pending\",\n                    \"reject_msg\": \"\",\n                    \"_id\": \"61f92dd9af24478abdf6e09f\"\n                },\n                {\n                    \"receiver_id\": \"61f0177703fea678ed613e03\",\n                    \"status\": \"pending\",\n                    \"reject_msg\": \"\",\n                    \"_id\": \"61f92dd9af24478abdf6e0a0\"\n                }\n            ],\n            \"resolved_by\": null,\n            \"createdAt\": \"2022-02-01T12:55:53.182Z\",\n            \"updatedAt\": \"2022-02-01T12:55:53.182Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"61f92e25db87d7cf3f9d9b52\",\n            \"employee_id\": \"61f24bbbd439fc231cb2fbee\",\n            \"type\": \"casual\",\n            \"date\": [\n                \"2022-01-31T18:30:00.000Z\",\n                \"2022-02-04T18:30:00.000Z\"\n            ],\n            \"message\": \"Please approve my leave req\",\n            \"leaveCount\": 4,\n            \"status\": \"rejected\",\n            \"receiver\": [\n                {\n                    \"receiver_id\": \"61f0171c03fea678ed613dfd\",\n                    \"status\": \"rejected\",\n                    \"reject_msg\": \"s2\",\n                    \"_id\": \"61f92e25db87d7cf3f9d9b53\"\n                },\n                {\n                    \"receiver_id\": \"61f0177703fea678ed613e03\",\n                    \"status\": \"rejected\",\n                    \"reject_msg\": \"s2\",\n                    \"_id\": \"61f92e25db87d7cf3f9d9b54\"\n                }\n            ],\n            \"resolved_by\": null,\n            \"createdAt\": \"2022-02-01T12:57:09.174Z\",\n            \"updatedAt\": \"2022-02-02T10:05:23.401Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"61f92e2edb87d7cf3f9d9b56\",\n            \"employee_id\": \"61f24bbbd439fc231cb2fbee\",\n            \"type\": \"casual\",\n            \"date\": [\n                \"2022-01-31T18:30:00.000Z\",\n                \"2022-01-31T18:30:00.000Z\"\n            ],\n            \"message\": \"Please approve my leave req\",\n            \"leaveCount\": 1,\n            \"status\": \"approved\",\n            \"receiver\": [\n                {\n                    \"receiver_id\": \"61f0171c03fea678ed613dfd\",\n                    \"status\": \"approved\",\n                    \"reject_msg\": \"s2\",\n                    \"_id\": \"61f92e2edb87d7cf3f9d9b57\"\n                },\n                {\n                    \"receiver_id\": \"61f0177703fea678ed613e03\",\n                    \"status\": \"approved\",\n                    \"reject_msg\": \"s2\",\n                    \"_id\": \"61f92e2edb87d7cf3f9d9b58\"\n                }\n            ],\n            \"resolved_by\": null,\n            \"createdAt\": \"2022-02-01T12:57:18.505Z\",\n            \"updatedAt\": \"2022-02-02T09:57:47.330Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"61fa59f61767e9ea886fd5de\",\n            \"employee_id\": \"61f24bbbd439fc231cb2fbee\",\n            \"type\": \"sick\",\n            \"date\": [\n                \"2022-02-01T18:30:00.000Z\",\n                \"2022-02-03T18:30:00.000Z\"\n            ],\n            \"message\": \"Please approve my leave req\",\n            \"leaveCount\": 3,\n            \"status\": \"approved\",\n            \"receiver\": [\n                {\n                    \"receiver_id\": \"61f0171c03fea678ed613dfd\",\n                    \"status\": \"approved\",\n                    \"reject_msg\": \"\",\n                    \"_id\": \"61fa59f61767e9ea886fd5df\"\n                },\n                {\n                    \"receiver_id\": \"61f0177703fea678ed613e03\",\n                    \"status\": \"approved\",\n                    \"reject_msg\": \"approved\",\n                    \"_id\": \"61fa59f61767e9ea886fd5e0\"\n                }\n            ],\n            \"resolved_by\": null,\n            \"createdAt\": \"2022-02-02T10:16:22.398Z\",\n            \"updatedAt\": \"2022-02-02T10:20:19.973Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"61fa80a780044195aef276f7\",\n            \"employee_id\": \"61fa449d623f63e869b8b889\",\n            \"type\": \"sick\",\n            \"date\": [\n                \"2022-01-31T18:30:00.000Z\",\n                \"2022-02-03T18:30:00.000Z\"\n            ],\n            \"message\": \"Please approve my leave req\",\n            \"leaveCount\": 4,\n            \"status\": \"pending\",\n            \"receiver\": [\n                {\n                    \"receiver_id\": \"61f0171c03fea678ed613dfd\",\n                    \"status\": \"pending\",\n                    \"reject_msg\": \"\",\n                    \"_id\": \"61fa80a780044195aef276f8\"\n                },\n                {\n                    \"receiver_id\": \"61f0177703fea678ed613e03\",\n                    \"status\": \"pending\",\n                    \"reject_msg\": \"\",\n                    \"_id\": \"61fa80a780044195aef276f9\"\n                }\n            ],\n            \"resolved_by\": null,\n            \"createdAt\": \"2022-02-02T13:01:27.574Z\",\n            \"updatedAt\": \"2022-02-02T13:01:27.574Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"61fa82bc2d4bce8605fdd7ac\",\n            \"employee_id\": \"61fa449d623f63e869b8b889\",\n            \"type\": \"sick\",\n            \"date\": [\n                \"2022-01-31T18:30:00.000Z\",\n                \"2022-02-03T18:30:00.000Z\"\n            ],\n            \"message\": \"Please approve my leave req\",\n            \"leaveCount\": 4,\n            \"status\": \"pending\",\n            \"receiver\": [\n                {\n                    \"receiver_id\": \"61f0171c03fea678ed613dfd\",\n                    \"status\": \"pending\",\n                    \"reject_msg\": \"\",\n                    \"_id\": \"61fa82bc2d4bce8605fdd7ad\"\n                },\n                {\n                    \"receiver_id\": \"61f0177703fea678ed613e03\",\n                    \"status\": \"pending\",\n                    \"reject_msg\": \"\",\n                    \"_id\": \"61fa82bc2d4bce8605fdd7ae\"\n                }\n            ],\n            \"resolved_by\": null,\n            \"createdAt\": \"2022-02-02T13:10:20.603Z\",\n            \"updatedAt\": \"2022-02-02T13:10:20.603Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"61fa836d04acba979c94f2d4\",\n            \"employee_id\": \"61fa449d623f63e869b8b889\",\n            \"type\": \"sick\",\n            \"date\": [\n                \"2022-01-31T18:30:00.000Z\",\n                \"2022-02-03T18:30:00.000Z\"\n            ],\n            \"message\": \"Please approve my leave req\",\n            \"leaveCount\": 4,\n            \"status\": \"pending\",\n            \"receiver\": [\n                {\n                    \"receiver_id\": \"61f0171c03fea678ed613dfd\",\n                    \"status\": \"pending\",\n                    \"reject_msg\": \"approved\",\n                    \"_id\": \"61fa836d04acba979c94f2d5\"\n                },\n                {\n                    \"receiver_id\": \"61f0177703fea678ed613e03\",\n                    \"status\": \"approved\",\n                    \"reject_msg\": \"Take Care_!\",\n                    \"_id\": \"61fa836d04acba979c94f2d6\"\n                }\n            ],\n            \"resolved_by\": null,\n            \"createdAt\": \"2022-02-02T13:13:17.941Z\",\n            \"updatedAt\": \"2022-02-03T09:35:04.799Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"61fba25ddfbdb5ab616eb71c\",\n            \"employee_id\": \"61fa449d623f63e869b8b889\",\n            \"type\": \"casual\",\n            \"date\": [\n                \"2022-02-01T18:30:00.000Z\",\n                \"2022-02-02T18:30:00.000Z\"\n            ],\n            \"message\": \"Please approve my leave req\",\n            \"leaveCount\": 2,\n            \"status\": \"pending\",\n            \"receiver\": [\n                {\n                    \"receiver_id\": \"61f0171c03fea678ed613dfd\",\n                    \"status\": \"pending\",\n                    \"reject_msg\": \"\",\n                    \"_id\": \"61fba25ddfbdb5ab616eb71d\"\n                },\n                {\n                    \"receiver_id\": \"61f0177703fea678ed613e03\",\n                    \"status\": \"pending\",\n                    \"reject_msg\": \"\",\n                    \"_id\": \"61fba25ddfbdb5ab616eb71e\"\n                }\n            ],\n            \"resolved_by\": null,\n            \"createdAt\": \"2022-02-03T09:37:33.511Z\",\n            \"updatedAt\": \"2022-02-03T09:37:33.511Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"61fba28cdfbdb5ab616eb726\",\n            \"employee_id\": \"61fa449d623f63e869b8b889\",\n            \"type\": \"casual\",\n            \"date\": [\n                \"2022-02-05T18:30:00.000Z\",\n                \"2022-02-07T18:30:00.000Z\"\n            ],\n            \"message\": \"Please approve my leave req\",\n            \"leaveCount\": 2,\n            \"status\": \"pending\",\n            \"receiver\": [\n                {\n                    \"receiver_id\": \"61f0171c03fea678ed613dfd\",\n                    \"status\": \"pending\",\n                    \"reject_msg\": \"\",\n                    \"_id\": \"61fba28cdfbdb5ab616eb727\"\n                },\n                {\n                    \"receiver_id\": \"61f0177703fea678ed613e03\",\n                    \"status\": \"pending\",\n                    \"reject_msg\": \"\",\n                    \"_id\": \"61fba28cdfbdb5ab616eb728\"\n                }\n            ],\n            \"resolved_by\": null,\n            \"createdAt\": \"2022-02-03T09:38:21.012Z\",\n            \"updatedAt\": \"2022-02-03T09:38:21.012Z\",\n            \"__v\": 0\n        }\n    ]\n}"
+				},
+				{
+					"name": "get_All_leave_req",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/getRequests/6200d3f339629885196480b7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"getRequests",
+								"6200d3f339629885196480b7"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "795"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"31b-NpO+B3xGA+NbLzePHjorKTKvetc\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Feb 2022 10:06:24 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": 200,\n    \"manager_requests\": [],\n    \"hr_requests\": [\n        {\n            \"_id\": \"62038e1ef5aa0c479f523202\",\n            \"employee_id\": \"62024fddbdea109840284ca8\",\n            \"type\": \"exigency\",\n            \"date\": [\n                \"2022-02-10T18:30:00.000Z\"\n            ],\n            \"message\": \"Please approve my leave req\",\n            \"leaveCount\": 1,\n            \"status\": \"partiallyApproved\",\n            \"Manager\": {\n                \"id\": \"6200d3f339629885196480b6\",\n                \"status\": \"approved\",\n                \"reject_msg\": \"Enjoy your day!\",\n                \"_id\": \"62038e1ef5aa0c479f523203\"\n            },\n            \"HR\": {\n                \"id\": \"6200d3f339629885196480b7\",\n                \"status\": \"approved\",\n                \"reject_msg\": \"Enjoy your day!\",\n                \"_id\": \"62038e1ef5aa0c479f523204\"\n            },\n            \"sendNotification\": [\n                {\n                    \"receiver_id\": \"61f0171c03fea678ed613dfd\",\n                    \"_id\": \"62038e1ef5aa0c479f523205\"\n                },\n                {\n                    \"receiver_id\": \"61fb9c44831cd97636328f55\",\n                    \"_id\": \"62038e1ef5aa0c479f523206\"\n                }\n            ],\n            \"resolved_by\": null,\n            \"createdAt\": \"2022-02-09T09:49:18.203Z\",\n            \"updatedAt\": \"2022-02-09T09:50:28.979Z\",\n            \"__v\": 0\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "myRequests",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"_id\":\"61f0171c03fea678ed613dfd\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/myRequests/61f24bbbd439fc231cb2fbee",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"myRequests",
+						"61f24bbbd439fc231cb2fbee"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "myRequests",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/myRequests/61fa449d623f63e869b8b889",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"myRequests",
+								"61fa449d623f63e869b8b889"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2886"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"b46-pk0y+XwP02Mw6ehKhkO+sdVPyRM\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Feb 2022 09:39:18 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": 200,\n    \"requests\": [\n        {\n            \"_id\": \"61fa80a780044195aef276f7\",\n            \"employee_id\": \"61fa449d623f63e869b8b889\",\n            \"type\": \"sick\",\n            \"date\": [\n                \"2022-01-31T18:30:00.000Z\",\n                \"2022-02-03T18:30:00.000Z\"\n            ],\n            \"message\": \"Please approve my leave req\",\n            \"leaveCount\": 4,\n            \"status\": \"pending\",\n            \"receiver\": [\n                {\n                    \"receiver_id\": \"61f0171c03fea678ed613dfd\",\n                    \"status\": \"pending\",\n                    \"reject_msg\": \"\",\n                    \"_id\": \"61fa80a780044195aef276f8\"\n                },\n                {\n                    \"receiver_id\": \"61f0177703fea678ed613e03\",\n                    \"status\": \"pending\",\n                    \"reject_msg\": \"\",\n                    \"_id\": \"61fa80a780044195aef276f9\"\n                }\n            ],\n            \"resolved_by\": null,\n            \"createdAt\": \"2022-02-02T13:01:27.574Z\",\n            \"updatedAt\": \"2022-02-02T13:01:27.574Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"61fa82bc2d4bce8605fdd7ac\",\n            \"employee_id\": \"61fa449d623f63e869b8b889\",\n            \"type\": \"sick\",\n            \"date\": [\n                \"2022-01-31T18:30:00.000Z\",\n                \"2022-02-03T18:30:00.000Z\"\n            ],\n            \"message\": \"Please approve my leave req\",\n            \"leaveCount\": 4,\n            \"status\": \"pending\",\n            \"receiver\": [\n                {\n                    \"receiver_id\": \"61f0171c03fea678ed613dfd\",\n                    \"status\": \"pending\",\n                    \"reject_msg\": \"\",\n                    \"_id\": \"61fa82bc2d4bce8605fdd7ad\"\n                },\n                {\n                    \"receiver_id\": \"61f0177703fea678ed613e03\",\n                    \"status\": \"pending\",\n                    \"reject_msg\": \"\",\n                    \"_id\": \"61fa82bc2d4bce8605fdd7ae\"\n                }\n            ],\n            \"resolved_by\": null,\n            \"createdAt\": \"2022-02-02T13:10:20.603Z\",\n            \"updatedAt\": \"2022-02-02T13:10:20.603Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"61fa836d04acba979c94f2d4\",\n            \"employee_id\": \"61fa449d623f63e869b8b889\",\n            \"type\": \"sick\",\n            \"date\": [\n                \"2022-01-31T18:30:00.000Z\",\n                \"2022-02-03T18:30:00.000Z\"\n            ],\n            \"message\": \"Please approve my leave req\",\n            \"leaveCount\": 4,\n            \"status\": \"pending\",\n            \"receiver\": [\n                {\n                    \"receiver_id\": \"61f0171c03fea678ed613dfd\",\n                    \"status\": \"pending\",\n                    \"reject_msg\": \"approved\",\n                    \"_id\": \"61fa836d04acba979c94f2d5\"\n                },\n                {\n                    \"receiver_id\": \"61f0177703fea678ed613e03\",\n                    \"status\": \"approved\",\n                    \"reject_msg\": \"Take Care_!\",\n                    \"_id\": \"61fa836d04acba979c94f2d6\"\n                }\n            ],\n            \"resolved_by\": null,\n            \"createdAt\": \"2022-02-02T13:13:17.941Z\",\n            \"updatedAt\": \"2022-02-03T09:35:04.799Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"61fba25ddfbdb5ab616eb71c\",\n            \"employee_id\": \"61fa449d623f63e869b8b889\",\n            \"type\": \"casual\",\n            \"date\": [\n                \"2022-02-01T18:30:00.000Z\",\n                \"2022-02-02T18:30:00.000Z\"\n            ],\n            \"message\": \"Please approve my leave req\",\n            \"leaveCount\": 2,\n            \"status\": \"pending\",\n            \"receiver\": [\n                {\n                    \"receiver_id\": \"61f0171c03fea678ed613dfd\",\n                    \"status\": \"pending\",\n                    \"reject_msg\": \"\",\n                    \"_id\": \"61fba25ddfbdb5ab616eb71d\"\n                },\n                {\n                    \"receiver_id\": \"61f0177703fea678ed613e03\",\n                    \"status\": \"pending\",\n                    \"reject_msg\": \"\",\n                    \"_id\": \"61fba25ddfbdb5ab616eb71e\"\n                }\n            ],\n            \"resolved_by\": null,\n            \"createdAt\": \"2022-02-03T09:37:33.511Z\",\n            \"updatedAt\": \"2022-02-03T09:37:33.511Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"61fba28cdfbdb5ab616eb726\",\n            \"employee_id\": \"61fa449d623f63e869b8b889\",\n            \"type\": \"casual\",\n            \"date\": [\n                \"2022-02-05T18:30:00.000Z\",\n                \"2022-02-07T18:30:00.000Z\"\n            ],\n            \"message\": \"Please approve my leave req\",\n            \"leaveCount\": 2,\n            \"status\": \"pending\",\n            \"receiver\": [\n                {\n                    \"receiver_id\": \"61f0171c03fea678ed613dfd\",\n                    \"status\": \"pending\",\n                    \"reject_msg\": \"\",\n                    \"_id\": \"61fba28cdfbdb5ab616eb727\"\n                },\n                {\n                    \"receiver_id\": \"61f0177703fea678ed613e03\",\n                    \"status\": \"pending\",\n                    \"reject_msg\": \"\",\n                    \"_id\": \"61fba28cdfbdb5ab616eb728\"\n                }\n            ],\n            \"resolved_by\": null,\n            \"createdAt\": \"2022-02-03T09:38:21.012Z\",\n            \"updatedAt\": \"2022-02-03T09:38:21.012Z\",\n            \"__v\": 0\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "uploadDoc",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "documents",
+							"type": "file",
+							"src": "/C:/Users/anand/Downloads/wp7830247-low-quality-wallpapers.jpg",
+							"disabled": true
+						},
+						{
+							"key": "documents",
+							"type": "file",
+							"src": "/C:/Users/anand/Downloads/sample.pdf"
+						},
+						{
+							"key": "documents",
+							"type": "file",
+							"src": "/C:/Users/anand/Downloads/wp5996281-quality-wallpapers.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/uploadDocuments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"uploadDocuments"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "uploadDoc",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "documents",
+									"type": "file",
+									"src": "/C:/Users/anand/Downloads/wp7830247-low-quality-wallpapers.jpg",
+									"disabled": true
+								},
+								{
+									"key": "documents",
+									"type": "file",
+									"src": "/C:/Users/anand/Downloads/sample.pdf"
+								},
+								{
+									"key": "documents",
+									"type": "file",
+									"src": "/C:/Users/anand/Downloads/wp5996281-quality-wallpapers.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/uploadDocuments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"uploadDocuments"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "46"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2e-hwc8lEKF96dcRB3TtsL30KKvvec\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 12 Feb 2022 13:38:01 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"log\": \"Employee info updated\"\n}"
+				}
+			]
+		},
+		{
+			"name": "deleteDoc from s3",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "image/jpeg",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/deleteDoc/?id=1644673078078sample.pdf",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"deleteDoc",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1644673078078sample.pdf"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "deleteDoc from s3",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "image/jpeg",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/deleteDoc/?id=1644673078078sample.pdf",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"deleteDoc",
+								""
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1644673078078sample.pdf"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "24"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"18-0p42YxILbblMfjvvvaGS3yc0CnU\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 12 Feb 2022 13:39:54 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"log\": \"file not found\"\n}"
+				}
+			]
+		},
+		{
+			"name": "downloadDoc",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "image/jpeg",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://hrms-backend1.herokuapp.com/api/download/?id=1645098655727June2022.pdf",
+					"protocol": "https",
+					"host": [
+						"hrms-backend1",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"download",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1645098655727June2022.pdf"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "previewDoc",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "image/jpeg",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/previewDoc/?id=16465917029621644608200423wp7830247-low-quality-wallpapers.jpg",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"previewDoc",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "16465917029621644608200423wp7830247-low-quality-wallpapers.jpg"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "previewDoc",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "image/jpeg",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/previewDoc/?id=16465917029621644608200423wp7830247-low-quality-wallpapers.jpg",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"previewDoc",
+								""
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "16465917029621644608200423wp7830247-low-quality-wallpapers.jpg"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "196"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"c4-dEhmSV50jn7pC83Uy8O+LRasU9U\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 07 Mar 2022 06:17:20 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "https://dev-hrms.s3.amazonaws.com/16465917029621644608200423wp7830247-low-quality-wallpapers.jpg?AWSAccessKeyId=AKIA5B3D3IKC5AVGE5BA&Expires=1646633960&Signature=J0HJ5zQzedB%2B9DQBBvfyhws%2B1E8%3D"
+				},
+				{
+					"name": "previewDoc",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "image/jpeg",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/previewDoc/?id=1645098655727June2022.pdf",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"previewDoc",
+								""
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1645098655727June2022.pdf"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "172"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"ac-mRUxE+yq6+sUb0f71+xHpKSK/5Q\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 07 Mar 2022 07:05:51 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"previewUrl\": \"https://dev-hrms.s3.amazonaws.com/1645098655727June2022.pdf?AWSAccessKeyId=AKIA5B3D3IKC5AVGE5BA&Expires=1646636871&Signature=0Y6jqXWg0QlsLXpEyd8mZg3xsc8%3D\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Verify",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"E9@123.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/verify",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"verify"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Verify",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"E9@123.com\",\r\n    \"status\":\"true\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/verify",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"verify"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "46"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2e-hwc8lEKF96dcRB3TtsL30KKvvec\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 10 Feb 2022 10:48:00 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"log\": \"Employee info updated\"\n}"
+				},
+				{
+					"name": "Verify",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"E9@123.com\",\r\n    \"status\":\"true\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://hrms-backend1.herokuapp.com/api/verify",
+							"protocol": "https",
+							"host": [
+								"hrms-backend1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"api",
+								"verify"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-Dns-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-Ct",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-Xss-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "46"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"2e-hwc8lEKF96dcRB3TtsL30KKvvec\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 17 Feb 2022 11:16:28 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"log\": \"Employee info updated\"\n}"
+				}
+			]
+		},
+		{
+			"name": "ChangePassword",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"E10@123.com\",\r\n    \"password\":\"E10\",\r\n    \"newPassword\":\"E10\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/changePassword",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"changePassword"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "ChangePassword",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"E10@123.com\",\r\n    \"password\":\"E10\",\r\n    \"newPassword\":\"E10\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/changePassword",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"changePassword"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "53"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"35-0paGnwMOGHcAM6hPpAV7BvDtOTo\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 07 Feb 2022 11:28:51 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"log\": \"password succesfully changed\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Assign Manager",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"E15@123.com\",\r\n    \"manager_id\":\"6200d3f339629885196480b6\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/assignManager",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"assignManager"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Assign Manager",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"E15@123.com\",\r\n    \"manager_id\":\"6200d3f339629885196480b6\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/assignManager",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"assignManager"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "46"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2e-hwc8lEKF96dcRB3TtsL30KKvvec\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Feb 2022 08:00:55 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"log\": \"Employee info updated\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Assign Admin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"E15@123.com\",\r\n    \"manager_id\":\"6200d3f339629885196480b6\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/assignManager",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"assignManager"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Assign Manager",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"E15@123.com\",\r\n    \"manager_id\":\"6200d3f339629885196480b6\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/assignManager",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"assignManager"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "46"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2e-hwc8lEKF96dcRB3TtsL30KKvvec\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Feb 2022 08:00:55 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"log\": \"Employee info updated\"\n}"
+				},
+				{
+					"name": "Assign Admin",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"E15@123.com\",\r\n    \"admin_id\":\"6200d3f339629885196480b6\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/changeAdmin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"changeAdmin"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "46"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2e-hwc8lEKF96dcRB3TtsL30KKvvec\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Feb 2022 08:02:31 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"log\": \"Employee info updated\"\n}"
+				}
+			]
+		},
+		{
+			"name": "uploadPersonalDetails",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{    \"id\":\"\",\r\n    \"name\":\"Anand Raj\",\r\n     \"mobile\":1234567,\r\n     \"emergency_contact\":12345678,\r\n     \"dob\":\"09-09-02\",\r\n      \"address\":\"abc w-02\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/uploadPeronsalDetails",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"uploadPeronsalDetails"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "uploadPersonalDetails",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{    \"id\":\"62039be9ab16051854cf6c54\",\r\n    \"name\":\"Abc def\",\r\n     \"mobile\":1234567,\r\n     \"emergency_contact\":12345678,\r\n     \"dob\":\"09-09-02\",\r\n      \"address\":\"abc w-02\",\r\n      \r\n          \"account_number\":111,\r\n          \"account_holder_name\":\"abc\",\r\n          \"bank_name\":\"SBI\",\r\n          \"bank_ifsc\":\"cv102c\"\r\n      \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/uploadPeronsalDetails",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"uploadPeronsalDetails"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "70"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"46-V37+IObU1WqEy8P5DgNInC+8lfo\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 10 Feb 2022 10:32:59 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"log\": \"Employee onbarded,waiting for admin to verify\"\n}"
+				}
+			]
+		},
+		{
+			"name": "heroku_url",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://hrms-backend1.herokuapp.com",
+					"protocol": "https",
+					"host": [
+						"hrms-backend1",
+						"herokuapp",
+						"com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GenerateSalarySlip",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"email\"\r\n:\"anand.raj@nonceblox.com\",\r\n\"basic\":700000,\r\n\"hra\":12000,\r\n\"lta\":10000,\r\n\"misc\":1200,\r\n\"workingdays\":26,\r\n\"Unpaidleave\":1,\r\n\"extradays\":1,\r\n\"checkbox\":true,\r\n\"dat\":\"2022-06\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hrms-backend1.herokuapp.com/api/generateSalarySlip",
+					"protocol": "https",
+					"host": [
+						"hrms-backend1",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"generateSalarySlip"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "GenerateSalarySlip",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"email\"\r\n:\"sujay.banage@nonceblox.com\",\r\n\"basic\":100000,\r\n\"hra\":100000,\r\n\"lta\":90000,\r\n\"misc\":90000,\r\n\"workingdays\":30,\r\n\"paidleave\":2,\r\n\"extradays\":1,\r\n\"checkbox\":true\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/generateSalarySlip",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"generateSalarySlip"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "35"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"23-OH/LZpyavzEma4sHKLwM6aVnkcA\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 15 Feb 2022 08:20:02 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"key\": \"1644913201272February.pdf\"\n}"
+				},
+				{
+					"name": "GenerateSalarySlip",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"email\"\r\n:\"anand.raj@nonceblox.com\",\r\n\"basic\":700000,\r\n\"hra\":12000,\r\n\"lta\":10000,\r\n\"misc\":1200,\r\n\"workingdays\":26,\r\n\"Unpaidleave\":1,\r\n\"extradays\":1,\r\n\"checkbox\":true,\r\n\"dat\":\"2022-06\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/generateSalarySlip",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"generateSalarySlip"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "35"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"23-LgezQ/U8/My+KrBs1QRbxy+7kGw\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 17 Feb 2022 11:30:36 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"key\": \"1645097428193June2022.pdf\"\n}"
+				}
+			]
+		},
+		{
+			"name": "CompanyPolicies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://hrms-backend1.herokuapp.com/api/companyPolicies",
+					"protocol": "https",
+					"host": [
+						"hrms-backend1",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"companyPolicies"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "CompanyPolicies",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://hrms-backend1.herokuapp.com/api/companyPolicies",
+							"protocol": "https",
+							"host": [
+								"hrms-backend1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"api",
+								"companyPolicies"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-Dns-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-Ct",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-Xss-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "220"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"dc-/wOQA6DOA6AZ8Zm0TYDD9TIPFXU\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 17 Feb 2022 11:35:25 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"docs\": [\n        {\n            \"_id\": \"620d008e9eef699880f41cbc\",\n            \"leave_holiday_policy\": \"\",\n            \"employee_handbook\": \"16450976520411644608200433sample (1).pdf\",\n            \"createdAt\": \"2022-02-16T13:47:58.229Z\",\n            \"updatedAt\": \"2022-02-17T11:34:20.777Z\",\n            \"__v\": 0\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Upload company policies docs",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "documents",
+							"type": "file",
+							"src": "/C:/Users/anand/Downloads/1644608200433sample (1).pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/uploadOfficial",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"uploadOfficial"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Standard Holidays",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"holidays\":[{\"name\":\"new year\",\"date\":\"01/01/2022\"},{\"name\":\"repulic day\",\"date\":\"26/01/2022\"}]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/standardholidays",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"standardholidays"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Optional Holidays",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"holidays\":[{\"name\":\"holi\",\"date\":\"03/01/2022\"},{\"name\":\"kj\",\"date\":\"03/02/2022\"}]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/optionalholidays",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"optionalholidays"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Optional Holidays",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"holidays\":[{\"name\":\"holi\",\"date\":\"03/01/2022\"},{\"name\":\"kj\",\"date\":\"03/02/2022\"}]}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/optionalholidays",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"optionalholidays"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "42"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2a-WWJDXHKUYAkDKunbei0WXVJF5nE\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 23 Feb 2022 06:42:14 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"log\": \" Document updated\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Standard Holidays",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"holidays\":[{\"name\":\"New Year\",\"date\":\"01/01/2022\"},{\"name\":\"Republic Day\",\"date\":\"01/26/2022\"}]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/standardholidays",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"standardholidays"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Standard Holidays",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"holidays\":[{\"name\":\"New Year\",\"date\":\"01/01/2022\"},{\"name\":\"Republic Day\",\"date\":\"01/26/2022\"}]}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/standardholidays",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"standardholidays"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "42"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2a-WWJDXHKUYAkDKunbei0WXVJF5nE\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 23 Feb 2022 09:35:33 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"200\",\n    \"log\": \" Document updated\"\n}"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "heroku link",
+			"value": "https://hrms-backend1.herokuapp.com"
+		}
+	]
+}
